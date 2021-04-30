@@ -1,2 +1,2 @@
 # funABC
-Things that start with your ABC
+Things that start with your Alphabet
