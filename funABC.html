@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Fun ABC</title>
+  <link rel="stylesheet" type="text/css" href="funABC.css" />
+</head>
+
+<body>
+  <center>
+    <h4>SSJ2</h4>
+    <img id="img" src="images/click2.png"></img> <br>
+    <button onmouseout="reset()" onclick="view('images/a.png')" type="button">
+      Aa
+    </button>
+    <button onmouseout="reset()" onclick="view('images/b.png')" type="button">
+      Bb
+    </button>
+    <button onmouseout="reset()" onclick="view('images/c.png')" type="button">
+      Cc
+    </button>
+    <button onmouseout="reset()" onclick="view('images/d.png')" type="button">
+      Dd
+    </button>
+    <button onmouseout="reset()" onclick="view('images/e.png')" type="button">
+      Ee
+    </button>
+  </center>
+
+  <script type="text/javascript">
+    function view(i) {
+      return document.getElementById("img").setAttribute("src", i);
+    }
+
+    function reset() {
+      document.getElementById('img').setAttribute("src", "images/click2.png");
+    }
+  </script>
+</body>
+
+</html>
